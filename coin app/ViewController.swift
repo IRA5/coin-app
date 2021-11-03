@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  coin app
+//  random number app
 //
 //  Created by Irtaza Ali on 10/5/21.
 //
@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
+    @IBOutlet weak var TextField: UITextField!
     
 }

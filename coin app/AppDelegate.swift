@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  coin app
+//  random number app
 //
 //  Created by Irtaza Ali on 10/5/21.
 //
