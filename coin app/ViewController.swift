@@ -11,12 +11,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var image: UIImageView!
     
-    var ImageList = [#imageLiteral(resourceName: "Heads"),#imageLiteral(resourceName: "Tails")]
+    var ImageList = [#imageLiteral(resourceName: "1"), #imageLiteral(resourceName: "2"), #imageLiteral(resourceName: "3"), #imageLiteral(resourceName: "4"), #imageLiteral(resourceName: "5"), #imageLiteral(resourceName: "6"), #imageLiteral(resourceName: "7"), #imageLiteral(resourceName: "8"), #imageLiteral(resourceName: "9"), #imageLiteral(resourceName: "10") ]
     
  
     
     @IBAction func click(_ sender: Any) {
-        let randomPosition = Int.random(in: 0...1)
+        let randomPosition = Int.random(in: 1...10)
         //who.what = image
         
         image.image = ImageList[randomPosition]
@@ -29,8 +29,3 @@ class ViewController: UIViewController {
     
     
 }
-
-    
-
-
-
